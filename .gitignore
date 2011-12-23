@@ -1,0 +1,12 @@
+.hg*
+.svn
+.hgsvn
+*.pyc
+*.swp
+*.swo
+*.egg
+*.egg-info
+*.db
+*.orig
+*.rej
+*.DS_Store

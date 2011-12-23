@@ -1,0 +1,44 @@
+adhocracy Changelog
+===================
+
+
+1.2a4 (unreleased)
+-------------------
+
+- tooltips use jquery tools now [joka]
+- open helper link, login and register form with overlay [joka]
+- recaptcha support (disabled by default) [joka]
+- proposals can have badgets #263 [joka]
+
+
+1.2a3 
+-----
+
+1.2a2 
+------
+
+1.2a1
+-----
+
+- users can have badgets #214 [carsten]
+- proposal listing with natural sort #212 [joka]
+
+1.1 (2010-12-05)
+----------------
+
+- Join "Goal" and "Implementation" pages on proposals.
+- Migrate from whoosh to solr.
+- Allow single-instance mode of operation.
+- Allow per-instance deactivation of norms. 
+- Remove wiki from system.
+- Change from cron-initiated regular background processing 
+  to continuous background queue polling process.
+- Add INSTALL.txt and CHANGES.txt.
+- Change from BSD license to AGPL-3.
+- Update to SQLAlchemy 0.6
+- Many smaller bug fixes. 
+
+1.0 (2010-07-24)
+----------------
+
+- Initial stable release.
