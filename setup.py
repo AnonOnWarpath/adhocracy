@@ -65,10 +65,11 @@ This version requires Python 2.5 or later.
         "python-memcached>=1.45",
         "solrpy==0.9.3",
         "sunburnt==0.5",
-        "PIL>=1.1.6",
+        "PIL==1.1.7",
         "markdown2>=1.0.1",
-        "lxml>=2.2.6",
+        "lxml==2.2.8",
         "recaptcha-client>=1.0.6",
+        "PasteScript"
     ],
     # REFACT: could/should these become regular dependencies?
     setup_requires=["PasteScript>=1.6.3",
@@ -93,5 +94,8 @@ This version requires Python 2.5 or later.
 
     [paste.app_install]
     main = pylons.util:PylonsInstaller
+
+    [console_scripts]
+    paster=paste.script.command:run
     """,
 )
