@@ -1,0 +1,24 @@
+Small and fast installation using buildout
+==========================================
+
+Question: What do you need?
+Answers:
+* Linux distribution Debian Squeeze
+* Database installed: sqlite or mysql or postgresql
+* git installed
+* make installed
+
+Steps:
+
+* cd /opt
+* git clone https://github.com/mrbradleyalan/adhocracy.git
+* cd adhocracy
+* git branch feature-buildout
+* make buildout
+* cp -av development.ini example.ini
+* bin/paster setup-app example.ini
+* bin/paster serve example.ini
+
+TODO:
+
+* Several steps for reducing installation work are on the way
